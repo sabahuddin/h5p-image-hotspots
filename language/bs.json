@@ -1,0 +1,47 @@
+{
+  "semantics": [
+    {
+      "label": "Slika pozadine",
+      "description": "Slika prikazana u pozadini."
+    },
+    {
+      "label": "Boja",
+      "description": "Boja The color of the hotspots specified using a hex color code"
+    },
+    {
+      "entity": "hotspot",
+      "label": "Hotspots",
+      "field": {
+        "label": "Hotspot",
+        "fields": [
+          {
+            "label": "Pozicija",
+            "fields": [
+              {
+                "label": "Horizontala pozicija (x)",
+                "description": "Horizontalna lokacija hotspota u procentima (0 - 100)"
+              },
+              {
+                "label": "Vertikalna pozicija (y)",
+                "description": "Vertikalna lokacija hotspota u procentima. (0 - 100)"
+              }
+            ]
+          },
+          {
+            "label": "Prekrij kompletan okvir kod iskočnog prozora"
+          },
+          {
+            "label": "Zaglavlje",
+            "description": "opcionalno"
+          },
+          {
+            "label": "Sadržaj iskočnog prozora",
+            "field": {
+              "label": "Sadržinski element"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
